@@ -2,12 +2,12 @@
 # Запуск без аргументов (make) выполнит ПЕРВУЮ цель - hello.
 
 hello:
-	@echo "Привет, мир!"
+	echo "Привет, мир!"
 
 date:
-	@date
+	date
 
 help:
-	@echo "make hello - поприветствовать мир"
-	@echo "make date  - показать дату и время"
-	@echo "make help  - эта справка"
+	echo "make hello - поприветствовать мир"
+	echo "make date  - показать дату и время"
+	echo "make help  - эта справка"
